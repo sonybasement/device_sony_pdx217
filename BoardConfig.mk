@@ -17,15 +17,15 @@
 # Inherit from sony sm8350-common
 -include device/sony/sm8350-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/pdx215
+DEVICE_PATH := device/sony/pdx217
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-BOARD_KERNEL_CMDLINE += buildproduct=pdx215
+BOARD_KERNEL_CMDLINE += buildproduct=pdx217
 
 TARGET_KERNEL_SOURCE := kernel/sony/sm8350
-TARGET_KERNEL_CONFIG := pdx215_defconfig
+TARGET_KERNEL_CONFIG := pdx217_defconfig
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)
@@ -40,4 +40,4 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/pdx215/BoardConfigVendor.mk
+-include vendor/sony/pdx217/BoardConfigVendor.mk

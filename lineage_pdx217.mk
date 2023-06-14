@@ -26,14 +26,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
 
-PRODUCT_NAME := lineage_pdx215
-PRODUCT_DEVICE := pdx215
+PRODUCT_NAME := lineage_pdx217
+PRODUCT_DEVICE := pdx217
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Xperia 1 III
+PRODUCT_MODEL := Xperia PRO-I
 
-PRODUCT_SYSTEM_NAME := XQ-BC72
-PRODUCT_SYSTEM_DEVICE := XQ-BC72
+PRODUCT_SYSTEM_NAME := XQ-BE72
+PRODUCT_SYSTEM_DEVICE := XQ-BE72
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 

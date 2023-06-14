@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE_COMMON=pdx215
+export DEVICE_COMMON=pdx217
 export DEVICE_COMMON=sm8350-common
 export VENDOR=sony
 

@@ -15,7 +15,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=pdx215
+export DEVICE=pdx217
 export DEVICE_COMMON=sm8350-common
 export VENDOR=sony
 
